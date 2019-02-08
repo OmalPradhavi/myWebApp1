@@ -104,4 +104,7 @@ public class Book {
 
     }
 
+    public Book(String publisher) {
+        this.publisher = publisher;
+    }
 }
