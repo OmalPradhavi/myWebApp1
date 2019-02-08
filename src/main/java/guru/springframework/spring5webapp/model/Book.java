@@ -107,4 +107,8 @@ public class Book {
     public Book(String publisher) {
         this.publisher = publisher;
     }
+
+    public Book(Set<Author> authors) {
+        this.authors = authors;
+    }
 }
