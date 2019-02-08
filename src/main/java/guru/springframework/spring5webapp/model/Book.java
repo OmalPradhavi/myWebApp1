@@ -103,4 +103,8 @@ public class Book {
                 '}';
 
     }
+
+    public Book(String title) {
+        this.title = title;
+    }
 }
